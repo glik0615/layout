@@ -1,0 +1,21 @@
+.book_a_demo {
+    background-color: blue;
+    color: white;
+    border: none;
+    height: 29px;
+    width: 105px;
+}
+
+.no_fon {
+    border: none;
+    background-color: white;
+}
+
+li {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
