@@ -1,0 +1,42 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+
+}
+
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-flex{
+    display: flex;
+    align-items: center;
+}
+.logo{
+margin-right: 36px;
+
+}
+.nav-flex a {
+    margin-right: 24px;
+
+}
+a{
+    text-decoration: none;
+    color: #33383F;
+
+
+}
+.sign-in{
+    color:#0070A0;
+    background: none;
+    border: none;
+
+}
+.demo{
+    color:#FFFFFF;
+    background-color: #0070A0;
+    padding: 6px 20px;
+    border:none;
+}
