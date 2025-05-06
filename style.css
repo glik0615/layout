@@ -286,7 +286,7 @@ h4 {
     width: 480px;
 }
 
-start-items p{
+.start-items p{
     color:#626a72;
     font-size: 13px;
     margin-right: 36px;
@@ -296,7 +296,60 @@ start-items p{
     content:url(assets/mark_done.svg)
 }
 
-.container{
+.footer-up{
+    margin:130px auto 64px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo{
+    width: 430px;
+}
+.footer-logo-links{
+    color:#0070A0
+}
+.footer-logo p{
+    margin:0;
+}
+.footer-logo img{
+    margin-bottom: 19px;
+}
+.footer-nav a{
+    display: block;
+    color:#626A72;
+    margin-bottom: 10px;
+}
+h6{
+    margin-bottom: 16px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.footer-news{
+    width: 210px;
+}
+.footer-news input{
+    border:none;
+    outline: none;
+    border-bottom: 1px solid #C2CDD8;
+    padding: 17px 0 7px 15px;
+}
+.footer-news span::after{
+    content: url(assets/arrow.svg);
+}
+
+.footer-down{
+    padding: 35px;
+    border-top:1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-social{
+    margin-right: 20px;
+}
+._automated{
+    display: flex;
+    justify-content: space-between;
+}
+.blog{
     display: flex;
     justify-content: space-between;
 }
