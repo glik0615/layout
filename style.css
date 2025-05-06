@@ -125,6 +125,9 @@ h4 {
     justify-content: space-between;
     align-items: center;
 }
+.care-block-img{
+    width: 481px;
+}
 .care-block-item {
     display: flex;
     justify-content: space-between;
@@ -232,6 +235,7 @@ h4 {
 .blog{
     background-color: #F7F9FA;
     padding: 80px 0;
+
 }
 
 .blog-info{
@@ -290,4 +294,9 @@ start-items p{
 
 .start-items p::before{
     content:url(assets/mark_done.svg)
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
 }
